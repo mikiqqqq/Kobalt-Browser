@@ -30,7 +30,7 @@ const Item:React.FunctionComponent<Props> = props => {
     }
 
     return (
-        <div className={style.item_container}>
+        <div className={`${style.item_container} ${props.theme && style.item_container_dark}`}>
             
             <a href={props.item.url} target='_blank noopener noreferrer'
             className={`${style.article_link} 

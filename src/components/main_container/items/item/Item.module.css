@@ -1,4 +1,4 @@
-.item_container {
+.item_container, .item_container_dark {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -7,6 +7,10 @@
     height: 95px;
     background-color: transparent;
     min-width: 1000px;
+}
+
+.item_container_dark{
+    border-bottom: 1px solid #4d4d4d;
 }
 
 .article_link{
@@ -57,7 +61,7 @@
 
 .item_bookmark{
     position: absolute;
-    right: 150px;
+    right: 107px;
     top: 15px;
     font-size: 20px;
     cursor: pointer;
