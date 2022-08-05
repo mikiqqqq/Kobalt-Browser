@@ -1,0 +1,29 @@
+.items_container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.items_container_none{
+    display: none;
+}
+
+.results{
+    margin-left: 45px;
+    color: rgb(224, 19, 127);
+    font-family:'Arial';
+    font-weight: 600;
+    border-bottom: 1px solid rgb(224, 19, 127);
+    display: inline-block;
+    width: fit-content;
+}
+
+.results_none{
+    display: none;
+}
+
+@media (max-width: 910px) {
+    .items_container {
+        width: 90%;
+    }
+}

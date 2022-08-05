@@ -1,0 +1,55 @@
+.navigation_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 10%;
+    margin: 0 auto 20px auto;
+    margin-top: 20px;
+    background-color: lavender;
+    border-radius: 25px;
+    min-width: 150px;
+}
+
+.navigation_container_light {
+    background-color: lavender;
+}
+
+.navigation_container_dark{
+    background-color: #181818;
+}
+
+.navigation_button {
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 50%;
+    background-color: inherit;
+    cursor: pointer;
+    font-size: 1rem;
+    color: inherit;
+    background-color: #6b33c7;
+}
+
+.navigation_button:hover{
+    background-color: #8258c7;
+}
+
+.navigation_button:active {
+    transform: scale(0.9);
+}
+
+.navigation_button:disabled {
+    background-color: gray;
+    border-color: gray;
+    cursor: default;
+}
+
+.navigation_button_icon {
+    color: lavender;
+    font-weight: bold;
+}
+
+.navigation_container > small {
+    color: #6b33c7;
+    font-weight: bold;
+}

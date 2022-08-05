@@ -1,0 +1,85 @@
+.item_container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border-bottom: 1px solid lightgray;
+    height: 95px;
+    background-color: transparent;
+    min-width: 1000px;
+}
+
+.article_link{
+    width: 86%;
+    height: 100%;
+    text-decoration: none;
+    color: black;
+    border-radius: 0 50px 50px 0;
+}
+
+.article_link:hover{
+    background-color: lavender;
+}
+
+.article_link_hover_light{
+    color: black;
+}
+
+.article_link_hover_dark{
+    color: lavender;
+}   
+
+.article_link_hover_light:hover{
+    background-color: lavender;
+}
+
+.article_link_hover_dark:hover{
+    background-color: rgb(255, 255, 255, 0.1);
+}
+
+.article_link:hover h4{
+    text-decoration: underline;
+}
+
+.item_header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.item_header > h4 {
+    margin: 0;
+    margin-left: 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #6b33c7;
+}
+
+.item_bookmark{
+    position: absolute;
+    right: 150px;
+    top: 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.item_bookmark_pink {
+    color: rgb(224, 19, 127);
+}
+
+.item_bookmark_red {
+    color: #6b33c7;
+}
+
+.item_details {
+    margin-top: 20px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.item_details > h6 {
+    margin: 0;
+    margin-right: 10px;
+    margin-left: 25px;
+}
