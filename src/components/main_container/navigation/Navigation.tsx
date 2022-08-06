@@ -45,6 +45,10 @@ const Navigation:React.FunctionComponent<Props> = props => {
         </div>
 
         <div className={style.navigation_theme_container}>
+            <span className={toggleTheme ? style.span_dark : style.span_light}>
+                {toggleTheme ? 'Dark' : 'Light'}&nbsp;&nbsp;
+            </span>
+            
             <label className={style.switch}
             title='Toggle Theme'>
                 <input type='checkbox' onClick={() => setToggleTheme(!toggleTheme)}/>

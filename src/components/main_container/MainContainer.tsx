@@ -1,13 +1,10 @@
 import axios from 'axios';
-
 import Loader from './loader/Loader';
 import Items from './items/Items';
 import BackToTop from './back_to_top/BackToTop';
-
 import Pagination from './pagination/Pagination';
 import Navigation from './navigation/Navigation';
 import Bookmarks from './bookmarks/Bookmarks';
-
 import { ResponseHackerNews } from './ReponseHackerNewsData';
 import { Actions, DataReducer, SearchOptions } from './MainContainerData';
 import useLocalStorage, { Data } from './useLocalStorage';

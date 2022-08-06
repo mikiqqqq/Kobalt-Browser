@@ -78,9 +78,9 @@
 
 .mini_logo {
     width: 32px;
-    height: 32px;
-    margin-right: 5px;
-    margin-top: 7.5px;
+    height: 34px;
+    margin-right: 7.5px;
+    margin-top: 8.5px;
 }
 
 .logo{
@@ -146,6 +146,14 @@ input:checked+.slider:before {
 
 .slider.round:before {
     border-radius: 50%;
+}
+
+.span_light{
+    color: #222;
+}
+
+.span_dark{
+    color: lavender;
 }
 
 @media screen and (max-width: 600px){
